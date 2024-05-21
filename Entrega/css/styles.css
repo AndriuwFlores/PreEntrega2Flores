@@ -1,0 +1,48 @@
+h2 {
+    Color: rgb(14, 102, 95);
+    text-align: center;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    img{
+        width: auto;
+        height: 40px;
+    }
+}
+.ul-header{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    text-transform: uppercase;
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 17px;
+    }  
+} 
+.imageportada{    
+    img{
+        width: 100%;    
+        height: auto;
+    }
+}
+.nav-header{
+    align-items: center;
+    display: flex;
+}
+.iconoinstagram{
+    img{
+        width: 40px;    
+        height: 40px;
+    }
+}
+.imagenosotros{
+    img{
+        width: auto;    
+        height: 400px;
+    }
+}
