@@ -3,21 +3,28 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin: 0 8px;
 }
 h1 {
     Color: rgb(14, 102, 95);
     text-align: left;
     display: inline-block;
-    margin-left: 10px;
+    margin: 0 10px 0;
 }
 h2 {
     Color: rgb(14, 102, 95);
-    text-align: center;
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px 0;
+    font-size: 30px;
 }
 .main-header{
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    border-bottom: 5px solid rgb(14, 102, 95);
+    margin-left: -8px;
+    margin-right: -8px;
     img{
         width: auto;
         height: 40px;
@@ -29,9 +36,11 @@ h2 {
     gap: 15px;
     list-style: none;
     text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
     a{
         text-decoration: none;
-        color: black;
+        color: rgb(14, 102, 95);
         font-weight: 500;
         font-size: 17px;
     }  
@@ -51,10 +60,10 @@ h2 {
     a{
         display: block;
         position: absolute;
-        bottom: 45px;
-        right: 45px;
-        font-size: 37px;
-        color: rgb(14, 102, 95);
+        bottom: 150px;
+        right: 450px;
+        font-size: 25px;
+        color: rgb(52, 132, 143);
         text-decoration: none;
     }
 }
@@ -89,4 +98,73 @@ footer{
     background-color: black;
     margin-left: -8px;
     margin-right: -8px;
+}
+.carruselportafolio{
+    max-width: 70%;
+}
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.serviciosContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 70px 0;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 400px;
+            border-radius: 10%;
+            height: auto;
+        }
+        p{
+            padding: 0 50px;
+            text-align: center;
+        }
+    }
+}
+.nosotrosContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 70px 0;
+    max-width: 50%;
+    align-items: center;
+    img{
+        border-radius: 10%; 
+    }
+}
+.mainNosotros{
+    display: flex;
+    justify-content: center;
+}
+.formContacto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 70px 0;
+    textarea{
+        max-width: 400px;
+        max-height: 200px;
+        min-width: 400px;
+        min-height: 60px;
+    }
+    input {
+        height: 20px
+    }
+   }
+.sectionContacto{
+    min-width: 400px;
+}
+.mainContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactoMensaje{
+    height: 60px;
 }
