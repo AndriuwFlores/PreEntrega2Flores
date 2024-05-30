@@ -1,6 +1,14 @@
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 h1 {
     Color: rgb(14, 102, 95);
     text-align: left;
+    display: inline-block;
+    margin-left: 10px;
 }
 h2 {
     Color: rgb(14, 102, 95);
@@ -29,9 +37,25 @@ h2 {
     }  
 } 
 .imageportada{    
+    position: relative;
+    margin-left: -8px;
+    margin-right: -8px;
     img{
         width: 100%;    
         height: auto;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: rgb(60, 173, 136);
+    }
+    a{
+        display: block;
+        position: absolute;
+        bottom: 45px;
+        right: 45px;
+        font-size: 37px;
+        color: rgb(14, 102, 95);
+        text-decoration: none;
     }
 }
 .nav-header{
@@ -49,4 +73,20 @@ h2 {
         width: auto;    
         height: 400px;
     }
+}
+.header-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
 }
