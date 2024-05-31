@@ -4,21 +4,21 @@ body {
     font-weight: 400;
     font-style: normal;
     margin: 0 8px;
-}
-h1 {
+ }
+ h1 {
     Color: rgb(14, 102, 95);
     text-align: left;
     display: inline-block;
     margin: 0 10px 0;
-}
-h2 {
+ }
+ h2 {
     Color: rgb(14, 102, 95);
     text-align: left;
     display: inline-block;
     margin: 0 10px 0;
     font-size: 30px;
-}
-.main-header{
+ }
+ .main-header{
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -29,8 +29,8 @@ h2 {
         width: auto;
         height: 40px;
     }
-}
-.ul-header{
+ }
+ .ul-header{
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -43,14 +43,14 @@ h2 {
         color: rgb(14, 102, 95);
         font-weight: 500;
         font-size: 17px;
-    }  
-} 
-.imageportada{    
+    } 
+ }
+ .imageportada{   
     position: relative;
     margin-left: -8px;
     margin-right: -8px;
     img{
-        width: 100%;    
+        width: 100%;   
         height: auto;
     }
     a:hover{
@@ -60,36 +60,36 @@ h2 {
     a{
         display: block;
         position: absolute;
-        bottom: 150px;
-        right: 450px;
+        bottom: 10%;
+        right: 40%;
         font-size: 25px;
         color: rgb(52, 132, 143);
         text-decoration: none;
     }
-}
-.nav-header{
+ }
+ .nav-header{
     align-items: center;
     display: flex;
-}
-.iconoinstagram{
+ }
+ .iconoinstagram{
     img{
-        width: 40px;    
+        width: 40px;   
         height: 40px;
     }
-}
-.imagenosotros{
+ }
+ .imagenosotros{
     img{
-        width: auto;    
+        width: auto;   
         height: 400px;
     }
-}
-.header-container{
+ }
+ .header-container{
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 10px;
-}
-footer{
+ }
+ footer{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -98,16 +98,16 @@ footer{
     background-color: black;
     margin-left: -8px;
     margin-right: -8px;
-}
-.carruselportafolio{
+ }
+ .carruselportafolio{
     max-width: 70%;
-}
-.maincontainer{
+ }
+ .maincontainer{
     display: flex;
     justify-content: center;
     margin: 50px 0;
-}
-.serviciosContainer{
+ }
+ .serviciosContainer{
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -126,8 +126,8 @@ footer{
             text-align: center;
         }
     }
-}
-.nosotrosContainer{
+ }
+ .nosotrosContainer{
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -135,14 +135,14 @@ footer{
     max-width: 50%;
     align-items: center;
     img{
-        border-radius: 10%; 
+        border-radius: 10%;
     }
-}
-.mainNosotros{
+ }
+ .mainNosotros{
     display: flex;
     justify-content: center;
-}
-.formContacto{
+ }
+ .formContacto{
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -157,20 +157,73 @@ footer{
         height: 20px
     }
    }
-.sectionContacto{
+ .sectionContacto{
     min-width: 400px;
-}
-.mainContacto{
+ }
+ .mainContacto{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.contactoMensaje{
+ }
+ .contactoMensaje{
     height: 60px;
-}
-@media (min-width:375px) and (max-width: 430px) {
-    .main-header{
-        background-color: brown;
+ }
+ @media (min-width:375px) and (max-width: 752px) {
+    .main-header {
+        display: block;
+        .header-container {
+            display: none;
+        }
+        .nav-header {
+            display: none;
+        }
     }
-
-}
+ }
+ @media (min-width: 753px) {
+    .main-header {
+        .navbar {
+            display: none;
+        }
+    }
+ }
+ @media (min-width: 753px) and (max-width: 835px) {
+    .main-header {
+        .header-container {
+            h1 {
+                font-size: 18px;
+            }
+        }
+    }
+ }
+ .banner img {
+    width: 100%;
+    height: 60px;
+  }
+   .logo {
+    width: 60px;
+    height: 60px;
+  }
+   .links {
+    background-color: rgb(14, 102, 95);
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+   .links:hover {
+    background-color: rgb(14, 102, 95);
+  }
+   .links a{
+    color: #ffffff;
+  }
+   .container-fluid .hamburger {
+    background-color: rgb(14, 102, 95);
+  }
+   @media (max-width: 991.98px) {
+    .navbar-nav {
+      flex-direction: column;
+      text-align: right;
+    }
+  }
+  
+ 
+ 
