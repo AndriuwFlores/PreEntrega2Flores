@@ -1,0 +1,229 @@
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 8px;
+ }
+ h1 {
+    Color: rgb(14, 102, 95);
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px 0;
+ }
+ h2 {
+    Color: rgb(14, 102, 95);
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px 0;
+    font-size: 30px;
+ }
+ .main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 5px solid rgb(14, 102, 95);
+    margin-left: -8px;
+    margin-right: -8px;
+    img{
+        width: auto;
+        height: 40px;
+    }
+ }
+ .ul-header{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+    a{
+        text-decoration: none;
+        color: rgb(14, 102, 95);
+        font-weight: 500;
+        font-size: 17px;
+    } 
+ }
+ .imageportada{   
+    position: relative;
+    margin-left: -8px;
+    margin-right: -8px;
+    img{
+        width: 100%;   
+        height: auto;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: rgb(60, 173, 136);
+    }
+    a{
+        display: block;
+        position: absolute;
+        bottom: 10%;
+        right: 40%;
+        font-size: 25px;
+        color: rgb(52, 132, 143);
+        text-decoration: none;
+    }
+ }
+ .nav-header{
+    align-items: center;
+    display: flex;
+ }
+ .iconoinstagram{
+    img{
+        width: 40px;   
+        height: 40px;
+    }
+ }
+ .imagenosotros{
+    img{
+        width: auto;   
+        height: 400px;
+    }
+ }
+ .header-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+ }
+ footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+ }
+ .carruselportafolio{
+    max-width: 70%;
+ }
+ .maincontainer{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+ }
+ .serviciosContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 70px 0;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 400px;
+            border-radius: 10%;
+            height: auto;
+        }
+        p{
+            padding: 0 50px;
+            text-align: center;
+        }
+    }
+ }
+ .nosotrosContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 70px 0;
+    max-width: 50%;
+    align-items: center;
+    img{
+        border-radius: 10%;
+    }
+ }
+ .mainNosotros{
+    display: flex;
+    justify-content: center;
+ }
+ .formContacto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 70px 0;
+    textarea{
+        max-width: 400px;
+        max-height: 200px;
+        min-width: 400px;
+        min-height: 60px;
+    }
+    input {
+        height: 20px
+    }
+   }
+ .sectionContacto{
+    min-width: 400px;
+ }
+ .mainContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .contactoMensaje{
+    height: 60px;
+ }
+ @media (min-width:375px) and (max-width: 752px) {
+    .main-header {
+        display: block;
+        .header-container {
+            display: none;
+        }
+        .nav-header {
+            display: none;
+        }
+    }
+ }
+ @media (min-width: 753px) {
+    .main-header {
+        .navbar {
+            display: none;
+        }
+    }
+ }
+ @media (min-width: 753px) and (max-width: 835px) {
+    .main-header {
+        .header-container {
+            h1 {
+                font-size: 18px;
+            }
+        }
+    }
+ }
+ .banner img {
+    width: 100%;
+    height: 60px;
+  }
+   .logo {
+    width: 60px;
+    height: 60px;
+  }
+   .links {
+    background-color: rgb(14, 102, 95);
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+   .links:hover {
+    background-color: rgb(14, 102, 95);
+  }
+   .links a{
+    color: #ffffff;
+  }
+   .container-fluid .hamburger {
+    background-color: rgb(14, 102, 95);
+  }
+   @media (max-width: 991.98px) {
+    .navbar-nav {
+      flex-direction: column;
+      text-align: right;
+    }
+  }
+  
+ 
+ 
