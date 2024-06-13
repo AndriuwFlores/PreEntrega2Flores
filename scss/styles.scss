@@ -22,6 +22,11 @@ h2 {
    font-size: 30px;
 }
 
+h3 {
+   Color: rgb(14, 102, 95);
+   font-size: 23px;
+}
+
 .main-header {
    display: flex;
    justify-content: space-between;
@@ -133,6 +138,7 @@ footer {
    background-color: black;
    margin-left: -8px;
    margin-right: -8px;
+   text-align: center;
 }
 
 .carruselportafolio {
@@ -150,6 +156,7 @@ footer {
    flex-direction: row;
    gap: 30px;
    margin: 70px 0;
+   justify-content: center;
 
    div {
       display: flex;
@@ -164,7 +171,7 @@ footer {
 
       p {
          padding: 0 50px;
-         text-align: center;
+         text-align: justify;
       }
    }
 }
@@ -263,8 +270,9 @@ footer {
          text-align: justify;
          padding: 0 5px;
       }
-
-
+   }
+   .footerCopyright {
+      font-size: 14px;
    }
 
    .navbar-brand h1 {
