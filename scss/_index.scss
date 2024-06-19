@@ -1,0 +1,30 @@
+.imageportada {
+    position: relative;
+    margin-left: -8px;
+    margin-right: -8px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: rgb(60, 173, 136);
+    }
+
+    a {
+        display: block;
+        position: absolute;
+        bottom: 10%;
+        right: 15%;
+        font-size: 25px;
+        color: rgb(52, 132, 143);
+        text-decoration: none;
+        animation: pulse 2s infinite;
+        transform-origin: center;
+        will-change: transform;
+
+    }
+
+}

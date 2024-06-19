@@ -1,0 +1,114 @@
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 8px;
+}
+
+h1 {
+    Color: rgb(14, 102, 95);
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px 0;
+    font-size: 30px;
+}
+
+h2 {
+    Color: rgb(14, 102, 95);
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px 0;
+    font-size: 30px;
+}
+
+h3 {
+    Color: rgb(14, 102, 95);
+    font-size: 23px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 5px solid rgb(14, 102, 95);
+    margin-left: -8px;
+    margin-right: -8px;
+
+    img {
+        width: auto;
+        height: 40px;
+    }
+}
+
+.ul-header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    a {
+        text-decoration: none;
+        color: rgb(14, 102, 95);
+        font-weight: 500;
+        font-size: 17px;
+    }
+}
+
+.nav-header {
+    align-items: center;
+    display: flex;
+}
+
+.iconoinstagram {
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.header-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.links {
+    background-color: rgb(14, 102, 95);
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.links:hover {
+    background-color: rgb(14, 102, 95);
+}
+
+.links a {
+    color: #ffffff;
+}
+
+.container-fluid .hamburger {
+    background-color: rgb(14, 102, 95);
+}

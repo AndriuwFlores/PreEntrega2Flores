@@ -1,0 +1,88 @@
+@media (min-width:375px) and (max-width: 752px) {
+    .main-header {
+        display: block;
+
+        .header-container {
+            display: none;
+        }
+
+        .nav-header {
+            display: none;
+        }
+    }
+
+    .imageportada img {
+        aspect-ratio: 9/16;
+        object-fit: cover;
+    }
+.maincontainer.portafolio{
+        margin: 0 0 5px;
+}
+    .carruselportafolio {
+        max-width: none;
+        margin: 0 -8px;
+
+        img {
+            aspect-ratio: 9/16;
+            object-fit: cover;
+        }
+    }
+
+    .serviciosContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nosotrosContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+        max-width: 80%;
+        text-align: justify;
+    }
+
+    .mainContacto {
+        flex-direction: column;
+
+        .formContacto {
+            margin-bottom: 0px;
+        }
+
+        .textoContacto {
+            text-align: justify;
+            padding: 0 5px;
+        }
+    }
+
+    .footerCopyright {
+        font-size: 14px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 753px) {
+    .main-header {
+        .navbar {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 753px) and (max-width: 835px) {
+    .main-header {
+        .header-container {
+            h1 {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: right;
+    }
+}

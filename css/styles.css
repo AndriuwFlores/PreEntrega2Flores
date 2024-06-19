@@ -56,6 +56,59 @@ h3 {
   font-size: 17px;
 }
 
+.nav-header {
+  align-items: center;
+  display: flex;
+}
+
+.iconoinstagram img {
+  width: 40px;
+  height: 40px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  margin-left: -8px;
+  margin-right: -8px;
+  text-align: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.links {
+  background-color: rgb(14, 102, 95);
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.links:hover {
+  background-color: rgb(14, 102, 95);
+}
+
+.links a {
+  color: #ffffff;
+}
+
+.container-fluid .hamburger {
+  background-color: rgb(14, 102, 95);
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -93,40 +146,6 @@ h3 {
   will-change: transform;
 }
 
-.nav-header {
-  align-items: center;
-  display: flex;
-}
-
-.iconoinstagram img {
-  width: 40px;
-  height: 40px;
-}
-
-.imagenosotros img {
-  width: auto;
-  height: 400px;
-}
-
-.header-container {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 10px;
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
-  color: white;
-  background-color: black;
-  margin-left: -8px;
-  margin-right: -8px;
-  text-align: center;
-}
-
 .carruselportafolio {
   max-width: 70%;
 }
@@ -144,6 +163,9 @@ footer {
   margin: 70px 0;
   justify-content: center;
 }
+.serviciosContainer h3 {
+  margin-top: 15px;
+}
 .serviciosContainer div {
   display: flex;
   flex-direction: column;
@@ -157,6 +179,11 @@ footer {
 .serviciosContainer div p {
   padding: 0 50px;
   text-align: justify;
+}
+
+.imagenosotros img {
+  width: auto;
+  height: 400px;
 }
 
 .nosotrosContainer {
@@ -195,6 +222,12 @@ footer {
 .formContacto label {
   display: block;
 }
+.formContacto .btn {
+  background-color: rgb(52, 132, 143);
+  color: rgb(211, 238, 229);
+  display: block;
+  margin: auto;
+}
 
 .sectionContacto {
   min-width: 400px;
@@ -222,6 +255,21 @@ footer {
   }
   .main-header .nav-header {
     display: none;
+  }
+  .imageportada img {
+    aspect-ratio: 9/16;
+    object-fit: cover;
+  }
+  .maincontainer.portafolio {
+    margin: 0 0 5px;
+  }
+  .carruselportafolio {
+    max-width: none;
+    margin: 0 -8px;
+  }
+  .carruselportafolio img {
+    aspect-ratio: 9/16;
+    object-fit: cover;
   }
   .serviciosContainer {
     flex-direction: column;
@@ -260,35 +308,6 @@ footer {
     font-size: 18px;
   }
 }
-.banner img {
-  width: 100%;
-  height: 60px;
-}
-
-.logo {
-  width: 60px;
-  height: 60px;
-}
-
-.links {
-  background-color: rgb(14, 102, 95);
-  padding: 0 10px;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-.links:hover {
-  background-color: rgb(14, 102, 95);
-}
-
-.links a {
-  color: #ffffff;
-}
-
-.container-fluid .hamburger {
-  background-color: rgb(14, 102, 95);
-}
-
 @media (max-width: 991.98px) {
   .navbar-nav {
     flex-direction: column;
