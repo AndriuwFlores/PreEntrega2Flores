@@ -19,7 +19,7 @@ h2 {
   text-align: left;
   display: inline-block;
   margin: 0 10px 0;
-  font-size: 30px;
+  font-size: 23px;
 }
 
 h3 {
@@ -159,7 +159,6 @@ footer {
 .serviciosContainer {
   display: flex;
   flex-direction: row;
-  gap: 30px;
   margin: 70px 0;
   justify-content: center;
 }
@@ -172,7 +171,7 @@ footer {
   align-items: center;
 }
 .serviciosContainer div img {
-  width: 400px;
+  width: 420px;
   border-radius: 10%;
   height: auto;
 }
@@ -193,6 +192,7 @@ footer {
   margin: 70px 0;
   max-width: 50%;
   align-items: center;
+  text-align: justify;
 }
 .nosotrosContainer img {
   border-radius: 10%;
