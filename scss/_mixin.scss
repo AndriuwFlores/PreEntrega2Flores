@@ -1,0 +1,7 @@
+@mixin border-radius($border-value) {
+    border-radius: $border-value;
+}
+@mixin flex-direction($direccition-value){
+    display: flex;
+    flex-direction: $direccition-value;
+}

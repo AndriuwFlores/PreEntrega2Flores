@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  Color: rgb(14, 102, 95);
+  color: rgb(14, 102, 95);
   text-align: left;
   display: inline-block;
   margin: 0 10px 0;
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  Color: rgb(14, 102, 95);
+  color: rgb(14, 102, 95);
   text-align: left;
   display: inline-block;
   margin: 0 10px 0;
@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-  Color: rgb(14, 102, 95);
+  color: rgb(14, 102, 95);
   font-size: 23px;
 }
 
@@ -74,8 +74,8 @@ h3 {
 }
 
 footer {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-direction: column;
   padding: 20px;
   color: white;
@@ -272,16 +272,19 @@ footer {
     object-fit: cover;
   }
   .serviciosContainer {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
   .nosotrosContainer {
+    display: flex;
     flex-direction: column-reverse;
     align-items: center;
     max-width: 80%;
     text-align: justify;
   }
   .mainContacto {
+    display: flex;
     flex-direction: column;
   }
   .mainContacto .formContacto {
@@ -310,6 +313,7 @@ footer {
 }
 @media (max-width: 991.98px) {
   .navbar-nav {
+    display: flex;
     flex-direction: column;
     text-align: right;
   }

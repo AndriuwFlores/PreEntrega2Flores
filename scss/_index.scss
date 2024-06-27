@@ -10,7 +10,7 @@
 
     a:hover {
         text-decoration: underline;
-        color: rgb(60, 173, 136);
+        color: $color-secundario;;
     }
 
     a {
@@ -19,7 +19,7 @@
         bottom: 10%;
         right: 15%;
         font-size: 25px;
-        color: rgb(52, 132, 143);
+        color: $color-terciario;;
         text-decoration: none;
         animation: pulse 2s infinite;
         transform-origin: center;

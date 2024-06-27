@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    Color: rgb(14, 102, 95);
+   color: $color-primario;
     text-align: left;
     display: inline-block;
     margin: 0 10px 0;
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-    Color: rgb(14, 102, 95);
+   color: $color-primario;
     text-align: left;
     display: inline-block;
     margin: 0 10px 0;
@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-    Color: rgb(14, 102, 95);
+   color: $color-primario;
     font-size: 23px;
 }
 
@@ -42,8 +42,7 @@ h3 {
 }
 
 .ul-header {
-    display: flex;
-    flex-direction: row;
+    @include flex-direction(row);
     gap: 15px;
     list-style: none;
     text-transform: uppercase;
@@ -52,7 +51,7 @@ h3 {
 
     a {
         text-decoration: none;
-        color: rgb(14, 102, 95);
+       color: $color-primario;
         font-weight: 500;
         font-size: 17px;
     }
@@ -78,9 +77,8 @@ h3 {
 }
 
 footer {
-    display: flex;
     align-items: center;
-    flex-direction: column;
+    @include flex-direction(column);
     padding: 20px;
     color: white;
     background-color: black;
@@ -97,7 +95,7 @@ footer {
 .links {
     background-color: rgb(14, 102, 95);
     padding: 0 10px;
-    border-radius: 5px;
+    @include border-radius(5px);
     font-size: 1rem;
 }
 

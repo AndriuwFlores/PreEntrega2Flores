@@ -29,19 +29,19 @@
     }
 
     .serviciosContainer {
-        flex-direction: column;
+        @include flex-direction(column);
         align-items: center;
     }
 
     .nosotrosContainer {
-        flex-direction: column-reverse;
+        @include flex-direction(column-reverse);
         align-items: center;
         max-width: 80%;
         text-align: justify;
     }
 
     .mainContacto {
-        flex-direction: column;
+        @include flex-direction(column);
 
         .formContacto {
             margin-bottom: 0px;
@@ -82,7 +82,7 @@
 
 @media (max-width: 991.98px) {
     .navbar-nav {
-        flex-direction: column;
+        @include flex-direction(column);
         text-align: right;
     }
 }
