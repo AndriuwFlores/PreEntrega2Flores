@@ -19,7 +19,7 @@ h2 {
   text-align: left;
   display: inline-block;
   margin: 0 10px 0;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 h3 {
@@ -171,7 +171,7 @@ footer {
   align-items: center;
 }
 .serviciosContainer div img {
-  width: 420px;
+  width: 300px;
   border-radius: 10%;
   height: auto;
 }
@@ -293,6 +293,7 @@ footer {
   .mainContacto .textoContacto {
     text-align: justify;
     padding: 0 5px;
+    max-width: 100%;
   }
   .footerCopyright {
     font-size: 14px;
