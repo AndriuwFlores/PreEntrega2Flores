@@ -42,9 +42,21 @@
 
     .mainContacto {
         @include flex-direction(column);
+        width: 100%;
+        .sectionContacto{
+            min-width: 100%;
+        }
 
         .formContacto {
             margin-bottom: 0px;
+            input{
+                min-width: 100%;
+            }
+            textarea{
+                min-width: 100%;
+                max-width: 100%;
+            }
+            
         }
 
         .textoContacto {

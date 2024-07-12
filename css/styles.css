@@ -286,9 +286,20 @@ footer {
   .mainContacto {
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+  .mainContacto .sectionContacto {
+    min-width: 100%;
   }
   .mainContacto .formContacto {
     margin-bottom: 0px;
+  }
+  .mainContacto .formContacto input {
+    min-width: 100%;
+  }
+  .mainContacto .formContacto textarea {
+    min-width: 100%;
+    max-width: 100%;
   }
   .mainContacto .textoContacto {
     text-align: justify;
